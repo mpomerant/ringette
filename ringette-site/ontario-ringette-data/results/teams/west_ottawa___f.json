@@ -1,0 +1,230 @@
+{
+    "name": "West Ottawa - F",
+    "win": 5,
+    "loss": 4,
+    "tie": 0,
+    "for": 28,
+    "against": 24,
+    "elo": 1517.8662566619373,
+    "results": [
+        {
+            "id": "nepean_ringette_u14a_10",
+            "tournament": "nepean_ringette",
+            "type": "RR",
+            "date": "Fri Nov 15",
+            "visitor": "Timmins",
+            "visitorScore": "5",
+            "home": "West Ottawa  - F",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1516.0339081301693,
+                    "elo": 1500,
+                    "probability": 0.4892572324131865
+                },
+                "postgame": {
+                    "opp": 1531.296043123496,
+                    "elo": 1484.7378650066732
+                }
+            },
+            "record": "0 - 1 - 0"
+        },
+        {
+            "id": "nepean_ringette_u14a_6",
+            "tournament": "nepean_ringette",
+            "type": "RR",
+            "date": "Fri Nov 15",
+            "visitor": "West Ottawa  - F",
+            "visitorScore": "4",
+            "home": "Upper Ottawa Valley",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1484.7378650066732,
+                    "probability": 0.49038162494547577
+                },
+                "postgame": {
+                    "opp": 1483.297604447537,
+                    "elo": 1501.4402605591363
+                }
+            },
+            "record": "1 - 1 - 0"
+        },
+        {
+            "id": "nepean_ringette_u14a_12",
+            "tournament": "nepean_ringette",
+            "type": "RR",
+            "date": "Sat Nov 16",
+            "visitor": "West Ottawa  - F",
+            "visitorScore": "5",
+            "home": "Gloucester Cumberland - D",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1469.4602177467552,
+                    "elo": 1501.4402605591363,
+                    "probability": 0.5339336687275043
+                },
+                "postgame": {
+                    "opp": 1454.9288079610299,
+                    "elo": 1515.9716703448616
+                }
+            },
+            "record": "2 - 1 - 0"
+        },
+        {
+            "id": "nepean_ringette_u14a_16",
+            "tournament": "nepean_ringette",
+            "type": "RR",
+            "date": "Sat Nov 16",
+            "visitor": "City of Ottawa",
+            "visitorScore": "0",
+            "home": "West Ottawa  - F",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1514.6930662411241,
+                    "elo": 1515.9716703448616,
+                    "probability": 0.489240226860419
+                },
+                "postgame": {
+                    "opp": 1498.75194787029,
+                    "elo": 1531.9127887156958
+                }
+            },
+            "record": "3 - 1 - 0"
+        },
+        {
+            "id": "nepean_ringette_u14a_22",
+            "tournament": "nepean_ringette",
+            "type": "S2",
+            "date": "Sun Nov 17",
+            "visitor": "West Ottawa  - F",
+            "visitorScore": "1",
+            "home": "Timmins",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1565.6517745951305,
+                    "elo": 1531.9127887156958,
+                    "probability": 0.4635153899295583
+                },
+                "postgame": {
+                    "opp": 1580.1029024818001,
+                    "elo": 1517.4616608290262
+                }
+            },
+            "record": "3 - 2 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_9",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Markham - A",
+            "visitorScore": "4",
+            "home": "West Ottawa - F",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1554.6057359107815,
+                    "elo": 1517.4616608290262,
+                    "probability": 0.45858263220090945
+                },
+                "postgame": {
+                    "opp": 1568.90167533338,
+                    "elo": 1503.1657214064278
+                }
+            },
+            "record": "3 - 3 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_4",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "West Ottawa - F",
+            "visitorScore": "2",
+            "home": "Richmond Hill",
+            "homeScore": "6",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1512.5912871082294,
+                    "elo": 1503.1657214064278,
+                    "probability": 0.49888723982677474
+                },
+                "postgame": {
+                    "opp": 1528.1573302227014,
+                    "elo": 1487.5996782919558
+                }
+            },
+            "record": "3 - 4 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_18",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "West Ottawa - F",
+            "visitorScore": "9",
+            "home": "Sudbury",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1414.779208035714,
+                    "elo": 1487.5996782919558,
+                    "probability": 0.5924356298147899
+                },
+                "postgame": {
+                    "opp": 1402.084456241434,
+                    "elo": 1500.2944300862357
+                }
+            },
+            "record": "4 - 4 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_24",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Whitby",
+            "visitorScore": "1",
+            "home": "West Ottawa - F",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1534.5366519018992,
+                    "elo": 1500.2944300862357,
+                    "probability": 0.4627859075071674
+                },
+                "postgame": {
+                    "opp": 1516.9648253261976,
+                    "elo": 1517.8662566619373
+                }
+            },
+            "record": "5 - 4 - 0"
+        }
+    ],
+    "pct": 0.5555555555555556,
+    "points": 10,
+    "games": 9,
+    "opponentRecord": {
+        "w": 47,
+        "l": 43,
+        "t": 1,
+        "g": 91
+    },
+    "strengthOfSchedule": 0.5274342191672869,
+    "record": "5 - 4 - 0",
+    "image": "West Ottawa.png"
+}

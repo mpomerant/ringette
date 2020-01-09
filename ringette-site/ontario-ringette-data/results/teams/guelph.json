@@ -1,0 +1,230 @@
+{
+    "name": "Guelph",
+    "win": 5,
+    "loss": 4,
+    "tie": 0,
+    "for": 36,
+    "against": 29,
+    "elo": 1512.105247024311,
+    "results": [
+        {
+            "id": "oshawa_ringette_u14a_3",
+            "tournament": "oshawa_ringette",
+            "type": "RR",
+            "date": "Fri Nov 1",
+            "visitor": "West Ottawa - G",
+            "visitorScore": "5",
+            "home": "Guelph",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1500,
+                    "probability": 0.512622317608554
+                },
+                "postgame": {
+                    "opp": 1516,
+                    "elo": 1484
+                }
+            },
+            "record": "0 - 1 - 0"
+        },
+        {
+            "id": "oshawa_ringette_u14a_5",
+            "tournament": "oshawa_ringette",
+            "type": "RR",
+            "date": "Fri Nov 1",
+            "visitor": "Barrie",
+            "visitorScore": "2",
+            "home": "Guelph",
+            "homeScore": "7",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1484,
+                    "probability": 0.48930663080347925
+                },
+                "postgame": {
+                    "opp": 1483.263693206478,
+                    "elo": 1500.736306793522
+                }
+            },
+            "record": "1 - 1 - 0"
+        },
+        {
+            "id": "oshawa_ringette_u14a_8",
+            "tournament": "oshawa_ringette",
+            "type": "RR",
+            "date": "Sat Nov 2",
+            "visitor": "Guelph",
+            "visitorScore": "2",
+            "home": "Gloucester Cumberland - B",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500.6684908377624,
+                    "elo": 1500.736306793522,
+                    "probability": 0.4874764616476105
+                },
+                "postgame": {
+                    "opp": 1516.6716138778988,
+                    "elo": 1484.7331837533857
+                }
+            },
+            "record": "1 - 2 - 0"
+        },
+        {
+            "id": "oshawa_ringette_u14a_11",
+            "tournament": "oshawa_ringette",
+            "type": "RR",
+            "date": "Sat Nov 2",
+            "visitor": "Guelph",
+            "visitorScore": "3",
+            "home": "Sault Ste Marie",
+            "homeScore": "0",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1515.2299283912382,
+                    "elo": 1484.7331837533857,
+                    "probability": 0.4682188989183067
+                },
+                "postgame": {
+                    "opp": 1497.8290972359946,
+                    "elo": 1502.1340149086293
+                }
+            },
+            "record": "2 - 2 - 0"
+        },
+        {
+            "id": "st_marys_ringette_u14a_5",
+            "tournament": "st_marys_ringette",
+            "type": "RR",
+            "date": "Fri Dec 6",
+            "visitor": "Barrie",
+            "visitorScore": "4",
+            "home": "Guelph",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1470.3058234307957,
+                    "elo": 1502.1340149086293,
+                    "probability": 0.5337133582131757
+                },
+                "postgame": {
+                    "opp": 1487.7674792699029,
+                    "elo": 1484.6723590695221
+                }
+            },
+            "record": "2 - 3 - 0"
+        },
+        {
+            "id": "st_marys_ringette_u14a_2",
+            "tournament": "st_marys_ringette",
+            "type": "RR",
+            "date": "Fri Dec 6",
+            "visitor": "Guelph",
+            "visitorScore": "7",
+            "home": "Mississauga",
+            "homeScore": "4",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1462.637148354766,
+                    "elo": 1484.6723590695221,
+                    "probability": 0.5194814523116252
+                },
+                "postgame": {
+                    "opp": 1447.6505489040317,
+                    "elo": 1499.6589585202564
+                }
+            },
+            "record": "3 - 3 - 0"
+        },
+        {
+            "id": "st_marys_ringette_u14a_7",
+            "tournament": "st_marys_ringette",
+            "type": "RR",
+            "date": "Sat Dec 7",
+            "visitor": "St. Marys",
+            "visitorScore": "3",
+            "home": "Guelph",
+            "homeScore": "4",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1478.789805017549,
+                    "elo": 1499.6589585202564,
+                    "probability": 0.5177842857608533
+                },
+                "postgame": {
+                    "opp": 1463.7497108980083,
+                    "elo": 1514.6990526397972
+                }
+            },
+            "record": "4 - 3 - 0"
+        },
+        {
+            "id": "st_marys_ringette_u14a_9",
+            "tournament": "st_marys_ringette",
+            "type": "RR",
+            "date": "Sat Dec 7",
+            "visitor": "Guelph",
+            "visitorScore": "7",
+            "home": "Kitchener",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1510.827499014877,
+                    "elo": 1514.6990526397972,
+                    "probability": 0.49301824322838506
+                },
+                "postgame": {
+                    "opp": 1495.0057832689324,
+                    "elo": 1530.5207683857418
+                }
+            },
+            "record": "5 - 3 - 0"
+        },
+        {
+            "id": "st_marys_ringette_u14a_11",
+            "tournament": "st_marys_ringette",
+            "type": "GS",
+            "date": "Sun Dec 8",
+            "visitor": "St. Marys",
+            "visitorScore": "3",
+            "home": "Guelph",
+            "homeScore": "0",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1477.6643509985224,
+                    "elo": 1530.5207683857418,
+                    "probability": 0.5640592386432173
+                },
+                "postgame": {
+                    "opp": 1496.0798723599532,
+                    "elo": 1512.105247024311
+                }
+            },
+            "record": "5 - 4 - 0"
+        }
+    ],
+    "pct": 0.5555555555555556,
+    "points": 10,
+    "games": 9,
+    "opponentRecord": {
+        "w": 44,
+        "l": 50,
+        "t": 4,
+        "g": 98
+    },
+    "strengthOfSchedule": 0.49696230693535276,
+    "record": "5 - 4 - 0",
+    "image": "Guelph.png"
+}

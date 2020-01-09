@@ -4,8 +4,22 @@ const gamesFiles = fs.readdirSync('results/games');
 
 const games = gamesFiles.map((file) => {
     return JSON.parse(fs.readFileSync(`results/games/${file}`));
+}).sort((a, b) => {
+    const _a = new Date(a.date);
+    const _b = new Date(b.date);
+    if (_a.getMonth() > 9) {
+        _a.setFullYear(2019);
+    } else {
+        _a.setFullYear(2020);
+    }
+    if (_b.getMonth() > 9) {
+        _b.setFullYear(2019);
+    }else {
+        _b.setFullYear(2020);
+    }
+    return _a - _b;
 });
-console.log(games);
+
 
 const teams = games.reduce((acc, curr) => {
     function normalizeName(name) {
@@ -60,6 +74,51 @@ const teams = games.reduce((acc, curr) => {
                     get: function () { return this.win + this.loss + this.tie },
                     enumerable: true
                 },
+                opponentRecord: {
+                    get: function() {
+                        const total = this.results.reduce((acc, curr) => {
+                            const opponent = normalizeName(curr.home === this.name ? curr.visitor : curr.home);
+                            if (teams[opponent]){
+                                acc.w +=  teams[opponent].win;
+                                acc.l +=  teams[opponent].loss;
+                                acc.t +=  teams[opponent].tie;
+                                acc.g +=  teams[opponent].games;
+                            } else {
+                                console.log(opponent);
+                            }
+                            return acc;
+                        }, { w: 0, l: 0, t:0, g:0});
+                        return total;
+                    },
+                    enumerable: true
+                },
+                strengthOfSchedule: {
+                    get: function () {
+                        const total = this.results.reduce((acc, curr) => {
+                            const opponent = normalizeName(curr.home === this.name ? curr.visitor : curr.home);
+                            if (teams[opponent]){
+                                acc.w +=  teams[opponent].opponentRecord.w;
+                                acc.l +=  teams[opponent].opponentRecord.l;
+                                acc.t +=  teams[opponent].opponentRecord.t;
+                                acc.g += teams[opponent].opponentRecord.g;
+                            } else {
+                                console.log(opponent);
+                            }
+                            return acc;
+                        }, { w: 0, l: 0, t:0, g:0});
+                        const opopPct = ((total.w * 2) + (total.t)) / (total.g * 2);
+                        const opRecord = this.opponentRecord;
+                        const opPct = ((opRecord.w * 2) + (opRecord.t)) / (opRecord.g * 2);
+                        return ((2 * opPct) + opopPct) / 3 ;
+                     },
+                    enumerable: true
+                },
+                record:  {
+                    get: function() {
+                        return `${this.win} - ${this.loss} - ${this.tie}`
+                    },
+                    enumerable: true
+                },
                 image: {
                     get: function () { 
                         const dash = this.name.lastIndexOf('-');
@@ -76,9 +135,9 @@ const teams = games.reduce((acc, curr) => {
     acc[home] = acc[home] || new Team(home);
 
     acc[visitor] = acc[visitor] || new Team(visitor);
-    acc[home].results.push(curr);
+    
 
-    acc[visitor].results.push(curr);
+    
 
     acc[home].for += homeScore;
     acc[visitor].against += homeScore;
@@ -99,9 +158,43 @@ const teams = games.reduce((acc, curr) => {
         winner = EloUtils.RESULT.TIE;
     }
 
+    const homeGame = {...curr};
+    const visitorGame = {...curr};
+    
+    const probability = EloUtils.probabilty(acc[home].elo, acc[visitor].elo);
+    homeGame.elo = {
+        pregame: {
+            opp: acc[visitor].elo,
+            elo: acc[home].elo,
+            probability: probability.r1
+        }
+    };
+    visitorGame.elo = {
+        pregame: {
+            opp: acc[home].elo,
+            elo: acc[visitor].elo,
+            probability: probability.r2
+        }
+    };
     const elo = EloUtils.elo(acc[home].elo, acc[visitor].elo, winner);
     acc[home].elo = elo.R1;
     acc[visitor].elo = elo.R2;
+
+    homeGame.elo.postgame = {
+        opp: elo.R2,
+        elo: elo.R1
+    }
+    homeGame.record = acc[home].record;
+    visitorGame.elo.postgame = {
+        opp: elo.R1,
+        elo: elo.R2
+    };
+
+    visitorGame.record = acc[visitor].record;
+
+
+    acc[home].results.push(homeGame);
+    acc[visitor].results.push(visitorGame);
     return acc;
 }, {});
 

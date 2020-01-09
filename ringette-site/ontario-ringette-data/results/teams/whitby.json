@@ -1,0 +1,345 @@
+{
+    "name": "Whitby",
+    "win": 7,
+    "loss": 7,
+    "tie": 0,
+    "for": 50,
+    "against": 44,
+    "elo": 1504.5152715189047,
+    "results": [
+        {
+            "id": "london_ringette_u14a_5",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Fri Nov 8",
+            "visitor": "Forest",
+            "visitorScore": "7",
+            "home": "Whitby",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1500,
+                    "probability": 0.512622317608554
+                },
+                "postgame": {
+                    "opp": 1516,
+                    "elo": 1484
+                }
+            },
+            "record": "0 - 1 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_2",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Fri Nov 8",
+            "visitor": "Whitby",
+            "visitorScore": "2",
+            "home": "Richmond Hill",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1516,
+                    "elo": 1484,
+                    "probability": 0.4660373777626652
+                },
+                "postgame": {
+                    "opp": 1498.5304984710244,
+                    "elo": 1501.4695015289756
+                }
+            },
+            "record": "1 - 1 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_16",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Sat Nov 9",
+            "visitor": "London",
+            "visitorScore": "0",
+            "home": "Whitby",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1499.263693206478,
+                    "elo": 1501.4695015289756,
+                    "probability": 0.49059107646832756
+                },
+                "postgame": {
+                    "opp": 1483.3652730688957,
+                    "elo": 1517.3679216665578
+                }
+            },
+            "record": "2 - 1 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_9",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Sat Nov 9",
+            "visitor": "Whitby",
+            "visitorScore": "1",
+            "home": "Markham - A",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1544.481492441098,
+                    "elo": 1517.3679216665578,
+                    "probability": 0.47313287392972536
+                },
+                "postgame": {
+                    "opp": 1559.235394958813,
+                    "elo": 1502.6140191488428
+                }
+            },
+            "record": "2 - 2 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_18",
+            "tournament": "london_ringette",
+            "type": "S2",
+            "date": "Sun Nov 10",
+            "visitor": "Whitby",
+            "visitorScore": "1",
+            "home": "Markham - A",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1559.235394958813,
+                    "elo": 1502.6140191488428,
+                    "probability": 0.4305512015148184
+                },
+                "postgame": {
+                    "opp": 1572.6507259305376,
+                    "elo": 1489.1986881771181
+                }
+            },
+            "record": "2 - 3 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_5",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Sudbury",
+            "visitorScore": "2",
+            "home": "Whitby",
+            "homeScore": "7",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1441.3013161122915,
+                    "elo": 1489.1986881771181,
+                    "probability": 0.556937375974488
+                },
+                "postgame": {
+                    "opp": 1427.4932033460373,
+                    "elo": 1503.0068009433724
+                }
+            },
+            "record": "3 - 3 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_12",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Metcalfe",
+            "visitorScore": "5",
+            "home": "Whitby",
+            "homeScore": "6",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1514.2359326814544,
+                    "elo": 1503.0068009433724,
+                    "probability": 0.49625861032337193
+                },
+                "postgame": {
+                    "opp": 1497.7189920381093,
+                    "elo": 1519.5237415867175
+                }
+            },
+            "record": "4 - 3 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_17",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Whitby",
+            "visitorScore": "4",
+            "home": "Waterloo",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1498.0621057909682,
+                    "elo": 1519.5237415867175,
+                    "probability": 0.518646682380218
+                },
+                "postgame": {
+                    "opp": 1483.0491954757865,
+                    "elo": 1534.5366519018992
+                }
+            },
+            "record": "5 - 3 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_24",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Whitby",
+            "visitorScore": "1",
+            "home": "West Ottawa - F",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500.2944300862357,
+                    "elo": 1534.5366519018992,
+                    "probability": 0.5372140924928326
+                },
+                "postgame": {
+                    "opp": 1517.8662566619373,
+                    "elo": 1516.9648253261976
+                }
+            },
+            "record": "5 - 4 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_25",
+            "tournament": "pickering_ringette",
+            "type": "S1",
+            "date": "Sun Dec 1",
+            "visitor": "Whitby",
+            "visitorScore": "2",
+            "home": "Richmond Hill",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1554.4077913875105,
+                    "elo": 1516.9648253261976,
+                    "probability": 0.458150019070537
+                },
+                "postgame": {
+                    "opp": 1568.6901237527036,
+                    "elo": 1502.6824929610045
+                }
+            },
+            "record": "5 - 5 - 0"
+        },
+        {
+            "id": "whitby_ringette_u14a_10",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Fri Jan 3",
+            "visitor": "West Ottawa - G",
+            "visitorScore": "7",
+            "home": "Whitby",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1538.7994591778709,
+                    "elo": 1502.6824929610045,
+                    "probability": 0.46006973586110234
+                },
+                "postgame": {
+                    "opp": 1553.1421767758175,
+                    "elo": 1488.339775363058
+                }
+            },
+            "record": "5 - 6 - 0"
+        },
+        {
+            "id": "whitby_ringette_u14a_4",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Fri Jan 3",
+            "visitor": "Upper Ottawa Valley",
+            "visitorScore": "3",
+            "home": "Whitby",
+            "homeScore": "6",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1430.5572868153204,
+                    "elo": 1488.339775363058,
+                    "probability": 0.5711076849015987
+                },
+                "postgame": {
+                    "opp": 1417.194003396868,
+                    "elo": 1501.7030587815102
+                }
+            },
+            "record": "6 - 6 - 0"
+        },
+        {
+            "id": "whitby_ringette_u14a_17",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Sat Jan 4",
+            "visitor": "Whitby",
+            "visitorScore": "8",
+            "home": "Gloucester Cumberland - D",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1475.7727463968074,
+                    "elo": 1501.7030587815102,
+                    "probability": 0.5251471945709449
+                },
+                "postgame": {
+                    "opp": 1460.9646691703197,
+                    "elo": 1516.511136007998
+                }
+            },
+            "record": "7 - 6 - 0"
+        },
+        {
+            "id": "whitby_ringette_u14a_13",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Sat Jan 4",
+            "visitor": "Whitby",
+            "visitorScore": "3",
+            "home": "Gloucester Cumberland - B",
+            "homeScore": "4",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1605.3464307032018,
+                    "elo": 1516.511136007998,
+                    "probability": 0.38522949970910736
+                },
+                "postgame": {
+                    "opp": 1617.342295192295,
+                    "elo": 1504.5152715189047
+                }
+            },
+            "record": "7 - 7 - 0"
+        }
+    ],
+    "pct": 0.5,
+    "points": 14,
+    "games": 14,
+    "opponentRecord": {
+        "w": 90,
+        "l": 54,
+        "t": 5,
+        "g": 149
+    },
+    "strengthOfSchedule": 0.5859354208003626,
+    "record": "7 - 7 - 0",
+    "image": "Whitby.png"
+}

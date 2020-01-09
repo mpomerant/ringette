@@ -1,0 +1,207 @@
+{
+    "name": "London",
+    "win": 3,
+    "loss": 4,
+    "tie": 1,
+    "for": 25,
+    "against": 31,
+    "elo": 1485.5291315644545,
+    "results": [
+        {
+            "id": "london_ringette_u14a_4",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Fri Nov 8",
+            "visitor": "Ajax",
+            "visitorScore": "3",
+            "home": "London",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1500,
+                    "probability": 0.512622317608554
+                },
+                "postgame": {
+                    "opp": 1484,
+                    "elo": 1516
+                }
+            },
+            "record": "1 - 0 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_7",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Fri Nov 8",
+            "visitor": "Markham - F",
+            "visitorScore": "6",
+            "home": "London",
+            "homeScore": "4",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1516,
+                    "probability": 0.5106933691965208
+                },
+                "postgame": {
+                    "opp": 1516.736306793522,
+                    "elo": 1499.263693206478
+                }
+            },
+            "record": "1 - 1 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_16",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Sat Nov 9",
+            "visitor": "London",
+            "visitorScore": "0",
+            "home": "Whitby",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1501.4695015289756,
+                    "elo": 1499.263693206478,
+                    "probability": 0.5094089235316724
+                },
+                "postgame": {
+                    "opp": 1517.3679216665578,
+                    "elo": 1483.3652730688957
+                }
+            },
+            "record": "1 - 2 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_10",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Sat Nov 9",
+            "visitor": "London",
+            "visitorScore": "0",
+            "home": "Richmond Hill",
+            "homeScore": "7",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1483.9020093997276,
+                    "elo": 1483.3652730688957,
+                    "probability": 0.5118404927131487
+                },
+                "postgame": {
+                    "opp": 1499.877291797906,
+                    "elo": 1467.3899906707172
+                }
+            },
+            "record": "1 - 3 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_10",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Oshawa",
+            "visitorScore": "3",
+            "home": "London",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1425.0197315930732,
+                    "elo": 1467.3899906707172,
+                    "probability": 0.5489721470427482
+                },
+                "postgame": {
+                    "opp": 1426.9613383750284,
+                    "elo": 1465.448383888762
+                }
+            },
+            "record": "1 - 3 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_6",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "London",
+            "visitorScore": "3",
+            "home": "Metcalfe",
+            "homeScore": "4",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1497.7189920381093,
+                    "elo": 1465.448383888762,
+                    "probability": 0.46564480725126023
+                },
+                "postgame": {
+                    "opp": 1512.2371345500173,
+                    "elo": 1450.930241376854
+                }
+            },
+            "record": "1 - 4 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_21",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "London",
+            "visitorScore": "3",
+            "home": "Nepean",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1518.1683333959818,
+                    "elo": 1450.930241376854,
+                    "probability": 0.415445622337691
+                },
+                "postgame": {
+                    "opp": 1499.1099908131137,
+                    "elo": 1469.988583959722
+                }
+            },
+            "record": "2 - 4 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_13",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Gloucester Cumberland - D",
+            "visitorScore": "2",
+            "home": "London",
+            "homeScore": "7",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1460.0089583059987,
+                    "elo": 1469.988583959722,
+                    "probability": 0.5019202949486844
+                },
+                "postgame": {
+                    "opp": 1444.4684107012663,
+                    "elo": 1485.5291315644545
+                }
+            },
+            "record": "3 - 4 - 1"
+        }
+    ],
+    "pct": 0.4375,
+    "points": 7,
+    "games": 8,
+    "opponentRecord": {
+        "w": 35,
+        "l": 46,
+        "t": 7,
+        "g": 88
+    },
+    "strengthOfSchedule": 0.47319867086393846,
+    "record": "3 - 4 - 1",
+    "image": "London.png"
+}

@@ -1,0 +1,115 @@
+{
+    "name": "Waterloo",
+    "win": 2,
+    "loss": 2,
+    "tie": 0,
+    "for": 13,
+    "against": 15,
+    "elo": 1497.2900169923669,
+    "results": [
+        {
+            "id": "pickering_ringette_u14a_8",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Waterloo",
+            "visitorScore": "5",
+            "home": "Gloucester Cumberland - D",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1471.0433383627817,
+                    "elo": 1500,
+                    "probability": 0.529544875834364
+                },
+                "postgame": {
+                    "opp": 1456.3737628642118,
+                    "elo": 1514.6695754985699
+                }
+            },
+            "record": "1 - 0 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_2",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Nepean",
+            "visitorScore": "8",
+            "home": "Waterloo",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1501.4721946992245,
+                    "elo": 1514.6695754985699,
+                    "probability": 0.5066097974370272
+                },
+                "postgame": {
+                    "opp": 1518.0796644068262,
+                    "elo": 1498.0621057909682
+                }
+            },
+            "record": "1 - 1 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_17",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Whitby",
+            "visitorScore": "4",
+            "home": "Waterloo",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1519.5237415867175,
+                    "elo": 1498.0621057909682,
+                    "probability": 0.48135331761978195
+                },
+                "postgame": {
+                    "opp": 1534.5366519018992,
+                    "elo": 1483.0491954757865
+                }
+            },
+            "record": "1 - 2 - 0"
+        },
+        {
+            "id": "pickering_ringette_u14a_23",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Waterloo",
+            "visitorScore": "4",
+            "home": "Ajax",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1444.6940640175221,
+                    "elo": 1483.0491954757865,
+                    "probability": 0.5431698512175003
+                },
+                "postgame": {
+                    "opp": 1430.4532425009418,
+                    "elo": 1497.2900169923669
+                }
+            },
+            "record": "2 - 2 - 0"
+        }
+    ],
+    "pct": 0.5,
+    "points": 4,
+    "games": 4,
+    "opponentRecord": {
+        "w": 16,
+        "l": 29,
+        "t": 1,
+        "g": 46
+    },
+    "strengthOfSchedule": 0.4276721014492753,
+    "record": "2 - 2 - 0",
+    "image": "Waterloo.png"
+}

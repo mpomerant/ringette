@@ -1,0 +1,299 @@
+{
+    "name": "Ajax",
+    "win": 1,
+    "loss": 10,
+    "tie": 1,
+    "for": 16,
+    "against": 57,
+    "elo": 1389.4922353631232,
+    "results": [
+        {
+            "id": "london_ringette_u14a_4",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Fri Nov 8",
+            "visitor": "Ajax",
+            "visitorScore": "3",
+            "home": "London",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1500,
+                    "probability": 0.48737768239144597
+                },
+                "postgame": {
+                    "opp": 1516,
+                    "elo": 1484
+                }
+            },
+            "record": "0 - 1 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_6",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Fri Nov 8",
+            "visitor": "Ajax",
+            "visitorScore": "0",
+            "home": "Markham - A",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1500,
+                    "elo": 1484,
+                    "probability": 0.48930663080347925
+                },
+                "postgame": {
+                    "opp": 1515.263693206478,
+                    "elo": 1468.736306793522
+                }
+            },
+            "record": "0 - 2 - 0"
+        },
+        {
+            "id": "london_ringette_u14a_11",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Sat Nov 9",
+            "visitor": "Markham - F",
+            "visitorScore": "1",
+            "home": "Ajax",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1531.233189702316,
+                    "elo": 1468.736306793522,
+                    "probability": 0.42217361130141995
+                },
+                "postgame": {
+                    "opp": 1528.38574739234,
+                    "elo": 1471.5837491034981
+                }
+            },
+            "record": "0 - 2 - 1"
+        },
+        {
+            "id": "london_ringette_u14a_15",
+            "tournament": "london_ringette",
+            "type": "RR",
+            "date": "Sat Nov 9",
+            "visitor": "Forest",
+            "visitorScore": "7",
+            "home": "Ajax",
+            "homeScore": "0",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1499.9660918698307,
+                    "elo": 1471.5837491034981,
+                    "probability": 0.4712893529545217
+                },
+                "postgame": {
+                    "opp": 1514.6619364479527,
+                    "elo": 1456.8879045253761
+                }
+            },
+            "record": "0 - 3 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_1",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Ajax",
+            "visitorScore": "5",
+            "home": "Oshawa",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1440.2543110075849,
+                    "elo": 1456.8879045253761,
+                    "probability": 0.5116163718559568
+                },
+                "postgame": {
+                    "opp": 1425.0197315930732,
+                    "elo": 1472.1224839398878
+                }
+            },
+            "record": "1 - 3 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_7",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Fri Nov 29",
+            "visitor": "Nepean",
+            "visitorScore": "6",
+            "home": "Ajax",
+            "homeScore": "3",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1518.0796644068262,
+                    "elo": 1472.1224839398878,
+                    "probability": 0.44585555248903097
+                },
+                "postgame": {
+                    "opp": 1531.9755156859417,
+                    "elo": 1458.2266326607723
+                }
+            },
+            "record": "1 - 4 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_15",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Ajax",
+            "visitorScore": "1",
+            "home": "Metcalfe",
+            "homeScore": "4",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1512.2371345500173,
+                    "elo": 1458.2266326607723,
+                    "probability": 0.4342870124271192
+                },
+                "postgame": {
+                    "opp": 1525.7697031932676,
+                    "elo": 1444.6940640175221
+                }
+            },
+            "record": "1 - 5 - 1"
+        },
+        {
+            "id": "pickering_ringette_u14a_23",
+            "tournament": "pickering_ringette",
+            "type": "RR",
+            "date": "Sat Nov 30",
+            "visitor": "Waterloo",
+            "visitorScore": "4",
+            "home": "Ajax",
+            "homeScore": "1",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1483.0491954757865,
+                    "elo": 1444.6940640175221,
+                    "probability": 0.4568301487824997
+                },
+                "postgame": {
+                    "opp": 1497.2900169923669,
+                    "elo": 1430.4532425009418
+                }
+            },
+            "record": "1 - 6 - 1"
+        },
+        {
+            "id": "whitby_ringette_u14a_7",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Fri Jan 3",
+            "visitor": "Timmins",
+            "visitorScore": "7",
+            "home": "Ajax",
+            "homeScore": "0",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1579.7344631364251,
+                    "elo": 1430.4532425009418,
+                    "probability": 0.30580409578937484
+                },
+                "postgame": {
+                    "opp": 1589.2537903104658,
+                    "elo": 1420.9339153269011
+                }
+            },
+            "record": "1 - 7 - 1"
+        },
+        {
+            "id": "whitby_ringette_u14a_5",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Fri Jan 3",
+            "visitor": "Gloucester Cumberland - D",
+            "visitorScore": "5",
+            "home": "Ajax",
+            "homeScore": "2",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1461.6387432560791,
+                    "elo": 1420.9339153269011,
+                    "probability": 0.45343305769245834
+                },
+                "postgame": {
+                    "opp": 1475.7727463968074,
+                    "elo": 1406.7999121861728
+                }
+            },
+            "record": "1 - 8 - 1"
+        },
+        {
+            "id": "whitby_ringette_u14a_12",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Sat Jan 4",
+            "visitor": "Ajax",
+            "visitorScore": "0",
+            "home": "West Ottawa - G",
+            "homeScore": "6",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1553.0404807067482,
+                    "elo": 1406.7999121861728,
+                    "probability": 0.3095802251631312
+                },
+                "postgame": {
+                    "opp": 1562.677275755246,
+                    "elo": 1397.163117137675
+                }
+            },
+            "record": "1 - 9 - 1"
+        },
+        {
+            "id": "whitby_ringette_u14a_16",
+            "tournament": "whitby_ringette",
+            "type": "RR",
+            "date": "Sat Jan 4",
+            "visitor": "Ajax",
+            "visitorScore": "0",
+            "home": "Gloucester Cumberland - B",
+            "homeScore": "5",
+            "status": "Official",
+            "elo": {
+                "pregame": {
+                    "opp": 1597.67554892865,
+                    "elo": 1397.163117137675,
+                    "probability": 0.24629194874138416
+                },
+                "postgame": {
+                    "opp": 1605.3464307032018,
+                    "elo": 1389.4922353631232
+                }
+            },
+            "record": "1 - 10 - 1"
+        }
+    ],
+    "pct": 0.125,
+    "points": 3,
+    "games": 12,
+    "opponentRecord": {
+        "w": 81,
+        "l": 47,
+        "t": 7,
+        "g": 135
+    },
+    "strengthOfSchedule": 0.5939804935110099,
+    "record": "1 - 10 - 1",
+    "image": "Ajax.png"
+}

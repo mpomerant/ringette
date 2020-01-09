@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `ringettedata`,
-        path: `${__dirname}/../ontario-ringette-data/results/`,
+        path: `${__dirname}/ontario-ringette-data/results/`,
       },
     },
     `gatsby-plugin-react-helmet`,
